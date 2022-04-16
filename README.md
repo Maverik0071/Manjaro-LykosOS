@@ -1,1 +1,2 @@
-# Manjaro-LykosOS
+# archDotfiles
+dotfiles for Arch Linux
