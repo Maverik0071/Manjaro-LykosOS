@@ -61,7 +61,7 @@ sudo pacman -S pavucontrol --noconfirm --needed
 sudo pacman -S pulseaudio --noconfirm --needed
 sudo pacman -S zip --noconfirm --needed
 sudo pacman -S xarchiver --noconfirm --needed
-
+sudo pacman -S qwikaccess --noconfirm --needed
 
 # installing stacer, librewolf, pamac, youtube-dl, popsicle, timeshift
 yay -S stacer
@@ -105,9 +105,11 @@ sudo pacman-key --lsign-key FBA220DFC880C036
 sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 
 # installing backgrounds from github
+cd Pictures
 git clone https://github.com/Maverik0071/Background3.git
 git clone https://github.com/Maverik0071/Backgrounds2.git
 git clone https://github.com/Maverik0071/Backgrounds.git
+cd
 
 # Installing LunarVim
 sudo pacman -S neovim
