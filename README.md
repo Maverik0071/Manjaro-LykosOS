@@ -1,2 +1,3 @@
 # archDotfiles
-dotfiles for Arch Linux
+dotfiles for Manjaro-Arch Linux
+for my Zephyrus-G14
