@@ -63,6 +63,12 @@ sudo pacman -S zip --noconfirm --needed
 sudo pacman -S xarchiver --noconfirm --needed
 sudo pacman -S qwikaccess --noconfirm --needed
 
+# installing Rofi for application icons and etc
+git clone https://github.com/davatorium/rofi.git
+
+mkdir -p ~/.config/rofi
+rofi -dump-config > ~/.config/rofi/config.rasi
+
 # installing stacer, librewolf, pamac, youtube-dl, popsicle, timeshift
 yay -S stacer
 yay -S librewolf
@@ -82,6 +88,9 @@ sudo ln -s /var/lib/snapd/snap /snap
 # installing Snaps from Snap Store
 sudo snap install spotify 
 sudo snap install teams
+sudo snap install android-studio --classic
+sudo snap install nextcloud
+sudo snap install flutter --classic
 
 # installing blackarch
 # Run https://blackarch.org/strap.sh as root and follow the instructions.
@@ -109,7 +118,6 @@ cd Pictures
 git clone https://github.com/Maverik0071/Background3.git
 git clone https://github.com/Maverik0071/Backgrounds2.git
 git clone https://github.com/Maverik0071/Backgrounds.git
-cd
 
 # Installing LunarVim
 sudo pacman -S neovim
